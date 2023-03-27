@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 6,7 and 8</title>
+    <style>
+        .title_box {
+            padding: 0.5em;
+  border: #3c5a86 1px dotted;
+}
+
+.title_box #title {
+  position: relative;
+  top: -1em;
+  margin-left: 2em;
+  display: inline;
+  background-color: white;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        Username:
+        <input type="text" name="username"/><br/>
+        Password:
+        <input type="password" name="pw" /><br/>
+        <input type="submit" value="Login" /><br/><br/>
+    </form>
+
+    <form>   
+            <div class="title_box">
+            <div id="title">Personal Details</div><br/>
+            First Name:
+            <input type="text" name="firstname"/><br/>
+            Last Name:
+            <input type="text" name="lastname"/><br/>
+            Email:
+            <input type="email" name="email" /><br/>
+            Gender: <input type="radio" id="male"/> <label for="male">Male</label>
+            <input type="radio" id="f"/> <label for="f">Female</label>
+            </div><br/><br/>
+        
+        <div class="title_box">
+        <div id="title">Magazines</div><br/>
+        <input type="checkbox" id="1" >
+        <label for="1"> Magazine 1</label><br>
+
+        <input type="checkbox" id="2" name="2">
+        <label for="2"> Magazine 2</label><br>
+
+        <input type="checkbox" id="3" name="3">
+        <label for="3"> Magazine 3</label><br>
+        </div>
+        <br>
+        <div class="title_box">
+        <div id="title">Subsription</div><br/>
+        <label for="Subsription">Period:</label>
+        <select name="Subsription" id="Subsription">
+        <option value="6">6 months</option>
+        <option value="12">12 months</option>
+        <option value="18">18 months</option>
+        <option value="24">24 months</option>
+        </select><br>
+        </div>
+        <br>
+        <input type="submit" value="Subsription" />
+    </form>
+<form>
+    <h2>New Employee Information</h2>
+    First Name:*
+            <input required type="text" name="firstname"/>
+            Last Name:*
+            <input required type="text" name="lastname"/>
+            Email:*
+            <input required type="email" name="email" />
+            Phone:* 
+            <input type="tel" id="phone" name="phone" placeholder="0700000000" pattern="[07][978][0-9]{7}" required>
+            Address:*
+            <input required type="text">
+            City:*
+            <input required type="text">
+            State:*
+        <select required id="states" name="states">
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+        <option value="DC">District Of Columbia</option>
+        <option value="FL">Florida</option>
+        </select>
+        Zip Code:* 
+        <input required type="number">
+        Start Date:*
+        <input required type="date">
+        Position:*
+        <input required type="text" >
+        Department:*
+        <input required type="text" >
+        Supervisor:*
+        <input required type="text" >
+        Salary:*
+        <input required type="number" >
+        Photo:
+        <input type="file">
+        Resume:*
+        <input type="file" accept="application/pdf">
+        References:
+        <textarea></textarea><br><br>
+
+        <div class="title_box">
+            <div id="title">Benefits</div><br/>
+            <input type="checkbox" id="1" >
+            <label for="1">Health Insurance</label><br>
+    
+            <input type="checkbox" id="2" name="2">
+            <label for="2">401(k) plan</label><br>
+    
+            <input type="checkbox" id="3" name="3" >
+            <label for="3">Paid vacation</label><br>
+
+            <input type="checkbox" id="4" name="4" >
+            <label for="4">Paid sick leave</label><br>
+            </div>
+
+            <input type="submit" value="submit">
+</form>
+</body>
+</html>
